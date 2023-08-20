@@ -1,6 +1,6 @@
 import sqlite3
 try:
-    conn = sqlite3.connect("accountant.db")
+    conn = sqlite3.connect("my.db")
     cursor = conn.cursor()
 
     result = cursor.execute("SELECT * FROM users")
